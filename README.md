@@ -12,6 +12,8 @@
 ## OBJECTIVE
 
 ## FEATURES & FUNCTIONALITIES
+<ins>USER</ins>
+
 
 ## ERD WITH RELATIONSHIP
 <img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/assets/WA%20ERD.drawio.jpg.jpg" alt="ER diagram" width="500">
