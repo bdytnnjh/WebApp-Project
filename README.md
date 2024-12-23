@@ -13,7 +13,7 @@
 
 ## FEATURES & FUNCTIONALITIES
 <ins>**USER**</ins>
-**1.	User Authentication** (including students, staffs, and guests to log in)
+1.	**User Authentication** (including students, staffs, and guests to log in)
 **2.	Role Management** (including admin, tour guide and general user)
 **3.	Interactive Campus Map** 
 -	Locate landmarks, tour routes, availability, and facilities in real time
