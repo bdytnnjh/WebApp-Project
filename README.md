@@ -19,6 +19,7 @@
 ## SEQUENCE DIAGRAM
 
 ## REFERENCES
+1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
 
 ## MOCKUP (LINK)
 
