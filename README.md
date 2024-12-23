@@ -14,7 +14,7 @@
 ## FEATURES & FUNCTIONALITIES
 
 ## ERD WITH RELATIONSHIP
-![ER Diagram](https://github.com/bdytnnjh/WebApp-Project/blob/main/assets/WA%20ERD.drawio.jpg.jpg)
+<img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/assets/WA%20ERD.drawio.jpg.jpg" alt="ER diagram" width="500">
 
 ## SEQUENCE DIAGRAM
 
