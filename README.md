@@ -8,6 +8,11 @@
 5. HANIF UTHMAN BIN ZULKIPLI (2215001)
 
 ## INTRODUCTION
+The "IIUM Campus Tour Guide System" is a web-based application designed to enhance the campus touring experience for International Islamic University Malaysia (IIUM) students and visitors. The IIUM campus covers a wide area, comprising many landmarks and facilities, so it must be difficult and confusing for any newcomer or visitor to navigate around the campus. This system will help solve all the challenges by offering an inclusive and interactive method of guiding one through the campus.
+
+The system is going to offer features such as self-guided virtual tours, detailed information about campus landmarks, and live tour booking options. Users can explore the campus at their own pace through virtual tours or might alternatively opt for live real-person guided tours for that enriched look and feel. The application includes detailed descriptions, multimedia content, and maps to ensure a rich and informative experience to users.
+
+The "IIUM Campus Tour Guide System" not only a navigation tool but also aims to foster a deeper understanding and appreciation of the university’s facilities, culture, and history. In integrating modern technology with campus exploration, the system seeks to enhance the overall experience for students, faculty, and visitors alike.
 
 ## OBJECTIVE
 
