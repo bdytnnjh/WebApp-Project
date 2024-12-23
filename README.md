@@ -34,6 +34,7 @@
 10.	**Accessibility Features**
 -	Audio guides, wheelchair-friendly routes, and text-to-speech options for visually impaired users.
 
+<ins>**ADMIN**</ins>
 
 
 
