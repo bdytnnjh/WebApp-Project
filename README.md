@@ -30,12 +30,27 @@
 8.	**Event and Activity Listings**
 -	Calendar of campus events, exhibitions, or cultural festivals
 9.	**Multilingual Support**
--	Available in multiple languages to accommodate IIUM’s diverse community.
+-	Available in multiple languages to accommodate IIUM’s diverse community
 10.	**Accessibility Features**
--	Audio guides, wheelchair-friendly routes, and text-to-speech options for visually impaired users.
+-	Audio guides, wheelchair-friendly routes, and text-to-speech options for visually impaired users
+
 
 <ins>**ADMIN**</ins>
-
+1. **User Management**
+- Manage user's role and give permissions
+2. **Tour and Landmark Management**
+- Create and update tours with details such as schedules, tour guide and descriptions for each tour
+- Add and modify campus landmarks with interesting content
+3. **Booking System Oversight**
+- Monitor all bookings and manage tour capacities
+- Generate booking 
+4. **Feedback Analysis**
+- Access user's reviews and ratings to identify which areas need to be improved
+5. **Event Management**
+- Update campus events
+6. **Analytics and Reporting**
+- View usage statistics, popula landmarks and peak tour times
+- Generate reports for decision-making and system improvement
 
 
 ## ERD WITH RELATIONSHIP
