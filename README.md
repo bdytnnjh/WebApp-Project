@@ -82,5 +82,5 @@ The "IIUM Campus Tour Guide System" not only a navigation tool but also aims to 
 1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
 
 ## MOCKUP (LINK)
-
+https://www.canva.com/design/DAGZ-l-c2tk/0FQPdoXz1nbbZplvcz0z4w/edit?utm_content=DAGZ-l-c2tk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
