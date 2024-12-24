@@ -77,6 +77,7 @@ The "IIUM Campus Tour Guide System" not only a navigation tool but also aims to 
 <img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/assets/WA%20ERD.drawio.jpg.jpg" alt="ER diagram" width="500">
 
 ## SEQUENCE DIAGRAM
+<img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
 
 ## REFERENCES
 1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
