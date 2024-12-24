@@ -15,6 +15,9 @@ The system is going to offer features such as self-guided virtual tours, detaile
 The "IIUM Campus Tour Guide System" not only a navigation tool but also aims to foster a deeper understanding and appreciation of the university’s facilities, culture, and history. In integrating modern technology with campus exploration, the system seeks to enhance the overall experience for students, faculty, and visitors alike.
 
 ## OBJECTIVE
+The primary objective of a IIUM Campus Tour Guide System is to attract potential clientts and IIUM community and also facilitate bookings for tours and travel experiences. It serves as a digital platform to showcase the tour guide's expertise, highlight their unique offerings, and provide a convenient way for interested individuals to inquire about and reserve tours.
+
+The system came out with offering  helpful information about the destinations covered in the tours also share travel stories, insider tips, and other relevant content to engage visitors and establish the tour guide as an authority. IIUM Campur Tour Guide System address feedback form for oncerns and to provide clarity or trust to the system.The  system not only just ease the outer visitors in IIUM campus,  but also  will help people with disabilities and discapabilitie in their university daily live.
 
 ## FEATURES & FUNCTIONALITIES
 <ins>**USER**</ins>
