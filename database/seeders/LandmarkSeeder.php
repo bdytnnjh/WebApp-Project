@@ -36,4 +36,19 @@ public function run()
         'latitude' => 3.1598,
         'longitude' => 101.7045,
     ]);
+
+    Landmark::create([
+        'name' => 'Main Auditorium IIUM',
+        'description' => 'just an Auditorium',
+        'latitude' => 3.1598,
+        'longitude' => 101.7045,
+    ]);
+
+
+    Landmark::create([
+        'name' => 'Saidina Hamzah Stadium',
+        'description' => 'Main building of sport and recreational office',
+        'latitude' => 3.1598,
+        'longitude' => 101.7045,
+    ]);
 }
