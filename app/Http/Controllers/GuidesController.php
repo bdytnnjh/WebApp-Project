@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Guides;
+
 
 class GuidesController extends Controller
 {
@@ -13,6 +15,33 @@ class GuidesController extends Controller
     {
         $guides = Guide::all(); // Fetch all guides from the database
         return view('guides', compact('guides'));
+    }
+
+    public function submitFeedback(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|max:255',
+            'feedback' => 'required|string|max:1000',
+        ]);
+
+        Guest::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'feedback' => $request->feedback
+        ]);
+
+        return redirect()->route('feedback.form')->with('success', 'Thank you for your feedback!');
+    }
+    /**
+     * Display the list of submitted feedback (optional).
+     *
+     * @return \Illuminate\View\View
+     */
+    public function listFeedback()
+    {
+        $feedbacks = Guest::latest()->get();
+        return view('feedback_list', ['feedbacks' => $feedbacks]);
     }
 
     /**
