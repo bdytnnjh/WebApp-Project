@@ -11,7 +11,7 @@
             width: 800px; /* Set your desired map width */
             height: 600px; /* Set your desired map height */
             margin: auto;
-            background: url('/images/uiam_map.png') no-repeat center center;
+            background: url('/img/uiam map.png') no-repeat center center;
             background-size: cover;
             border: 1px solid #ccc;
         }
