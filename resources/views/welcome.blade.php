@@ -49,7 +49,6 @@
                                 <li><a href="#secvice">Service</a></li>
                                 <li><a href="#gallery">Gallery</a></li>
                                 <li><a href="#faq">Faq</a></li>
-                                <li><a href="#contact">Contact</a></li>
                                 <li><a href="#feedback">Feedback</a></li>
                                 <!-- Dropdown -->
                                 <li class="dropdown">
@@ -420,8 +419,8 @@
         <!-- End logo Area -->
 
 
-        <!-- start contact Area -->
-        <section class="contact-area section-gap" id="contact">
+        <!-- start feedback Area -->
+        <section class="feedback-area section-gap" id="feedback">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-8">
@@ -431,7 +430,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+                <form class="form-area " id="myForm" action="mail.php" method="post" class="feedback-form text-right">
                     <div class="row">
                     <div class="col-lg-6 form-group">
                         <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
@@ -450,7 +449,7 @@
 
             </div>
         </section>
-        <!-- end contact Area -->
+        <!-- end feedback Area -->
 
         <!-- start footer Area -->
         <footer class="footer-area section-gap">
