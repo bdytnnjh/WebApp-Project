@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
-use App\Models\Guide; // Ensure the correct model is imported
-use App\Models\Feedback; // Assuming Guest is the model for feedback
+use App\Models\Guide;
 
 class GuidesController extends Controller
 {
@@ -24,7 +24,7 @@ class GuidesController extends Controller
      */
     public function create()
     {
-        return view('guides.create'); // Show form to create a new guide
+        return view('add-guides'); // Show form to create a new guide
     }
 
     /**
@@ -34,43 +34,17 @@ class GuidesController extends Controller
     {
         $request->validate([
             'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:guides,email',
+            'phone_number' => 'required|string|max:15', // Ensure this matches the input name
             'description' => 'required|string',
-            'price' => 'required|numeric',
-            'image_url' => 'nullable|url',
         ]);
 
-        Guide::create($request->all()); // Create a new guide
-        return redirect()->route('guides.index')->with('success', 'Guide created successfully.');
-    }
+        // Create a new guide using the validated data
+        Guide::create($request->only('name', 'email', 'phone_number', 'description'));
 
-    /**
-     * Submit feedback from a guest.
-     */
-    public function submitFeedback(Request $request)
-    {
-        // Validate the form input
-        $validatedData = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'subject' => 'required|string|max:255',
-            'message' => 'required|string',
-        ]);
+        // Redirect to the index page with a success message
+        return redirect()->route('guides.index')->with('success', 'Guide added successfully!');
 
-        // Save the contact message to the database
-        Contact::create($validatedData);
-
-        return redirect()->route('feedback.form')->with('success', 'Thank you for your feedback!');
-    }
-
-    /**
-     * Display the list of submitted feedback (optional).
-     *
-     * @return \Illuminate\View\View
-     */
-    public function listFeedback()
-    {
-        $feedbacks = Guest::latest()->get();
-        return view('feedback_list', ['feedbacks' => $feedbacks]);
     }
 
     /**
@@ -88,7 +62,7 @@ class GuidesController extends Controller
     public function edit(string $id)
     {
         $guide = Guide::findOrFail($id);
-        return view('guides.edit', compact('guide'));
+        return view('add-guides', compact('guide'));
     }
 
     /**
@@ -96,17 +70,7 @@ class GuidesController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'description' => 'required|string',
-            'price' => 'required|numeric',
-            'image_url' => 'nullable|url',
-        ]);
 
-        $guide = Guide::findOrFail($id);
-        $guide->update($request->all());
-
-        return redirect()->route('guides.index')->with('success', 'Guide updated successfully.');
     }
 
     /**
