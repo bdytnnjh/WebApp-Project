@@ -3,14 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
-use App\Models\Feedback;
 use Illuminate\Support\Facades\DB;
 
-=======
 use App\Models\Guide; // Ensure the correct model is imported
-use App\Models\Guest; // Assuming Guest is the model for feedback
->>>>>>> 626012bfb0be9684b283fc264689dd9050f62eb5
+use App\Models\Feedback; // Assuming Guest is the model for feedback
 
 class GuidesController extends Controller
 {
@@ -23,11 +19,8 @@ class GuidesController extends Controller
         return view('guides', compact('guides'));
     }
 
-<<<<<<< HEAD
-    public function submitForm(Request $request)
-=======
     /**
-     * Show the form for creating a new guide.
+     * * Show the form for creating a new guide.
      */
     public function create()
     {
@@ -54,7 +47,6 @@ class GuidesController extends Controller
      * Submit feedback from a guest.
      */
     public function submitFeedback(Request $request)
->>>>>>> 626012bfb0be9684b283fc264689dd9050f62eb5
     {
         // Validate the form input
         $validatedData = $request->validate([
@@ -67,10 +59,6 @@ class GuidesController extends Controller
         // Save the contact message to the database
         Contact::create($validatedData);
 
-<<<<<<< HEAD
-        // Redirect with a success message
-        return redirect()->route('contact.show')->with('success', 'Your message has been sent successfully!');
-=======
         return redirect()->route('feedback.form')->with('success', 'Thank you for your feedback!');
     }
 
@@ -83,7 +71,6 @@ class GuidesController extends Controller
     {
         $feedbacks = Guest::latest()->get();
         return view('feedback_list', ['feedbacks' => $feedbacks]);
->>>>>>> 626012bfb0be9684b283fc264689dd9050f62eb5
     }
 
     /**
@@ -133,3 +120,4 @@ class GuidesController extends Controller
         return redirect()->route('guides.index')->with('success', 'Guide deleted successfully.');
     }
 }
+
