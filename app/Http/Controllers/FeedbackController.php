@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
 {
+    // Display feedback for admin
+    public function index()
+    {
+        $feedbacks = Feedback::all();
+        return view('feedback', compact('feedbacks'));
+    }
+
     public function store(Request $request)
     {
         $request->validate([
@@ -21,12 +28,6 @@ class FeedbackController extends Controller
         return redirect()->back()->with('success', 'Feedback submitted successfully.');
     }
 
-    // Display feedback for admin
-    public function index()
-    {
-        $feedback = Feedback::all();
 
-        return view('feedback', compact('feedbacks'));
-    }
 }
 
