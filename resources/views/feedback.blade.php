@@ -46,7 +46,6 @@
                     <tbody>
                         @forelse($feedbacks as $feedback)
                         <tr>
-
                             <td class="text-left">{{ $feedback->name }}</td>
                             <td class="text-center">{{ $feedback->name }}</td>
                             <td class="text-danger fw-bold">{{ $feedback->email }}</td>

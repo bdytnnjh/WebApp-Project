@@ -11,6 +11,4 @@ Route::get('/', function () {
 Route::resource('guides',GuideController::class);
 Route::resource('feedbacks',FeedbackController::class);
 
-Route::get('/', function () {
-    return view('feedback');
-});
+
