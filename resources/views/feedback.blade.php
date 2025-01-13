@@ -1,44 +1,65 @@
-@extends('master.layouts')
+@extends('master.layout')
 
 @section('content')
-<div class="container">
-    <h1>Contact Us</h1>
-
-    <!-- Display success message -->
-    @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-
-    <!-- Contact form -->
-    <form action="{{ route('contact.submit') }}" method="POST">
-        @csrf
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" class="form-control" value="{{ old('name') }}" required>
-            @error('name') <small class="text-danger">{{ $message }}</small> @enderror
+<section class="contact-area section-gap" id="feedback">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Provide us feedback for us to improve</h1>
+                    <p>Let us know your thoughts.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="form-control" value="{{ old('email') }}" required>
-            @error('email') <small class="text-danger">{{ $message }}</small> @enderror
-        </div>
+        @if(session('success'))
+            <div class="alert alert-success">{{ session('success') }}</div>
+        @endif
 
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" id="subject" class="form-control" value="{{ old('subject') }}" required>
-            @error('subject') <small class="text-danger">{{ $message }}</small> @enderror
-        </div>
+        <form class="form-area" method="POST" action="{{ route('feedbacks.store') }}">
+            @csrf
+            <div class="row">
+                <div class="col-lg-6 form-group">
+                    <input name="name" placeholder="Enter your name" class="common-input mb-20 form-control" required type="text">
+                    <input name="email" placeholder="Enter email address" class="common-input mb-20 form-control" required type="email">
+                    <input name="phoneNo" placeholder="Enter your phone number" class="common-input mb-20 form-control" required type="text">
+                </div>
+                <div class="col-lg-6 form-group">
+                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Message" required></textarea>
+                    <button class="primary-btn mt-20">Submit Feedback<span class="lnr lnr-arrow-right"></span></button>
+                </div>
+            </div>
+        </form>
 
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="form-control" rows="5" required>{{ old('message') }}</textarea>
-            @error('message') <small class="text-danger">{{ $message }}</small> @enderror
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <h2 class="text-center">Feedback List</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @forelse($feedbacks as $feedback)
+                        <tr>
+                            <td class="text-center">{{ $feedback->name }}</td>
+                            <td class="text-danger fw-bold">{{ $feedback->email }}</td>
+                            <td class="text-success">{{ $feedback->phoneNo }}</td>
+                            <td class="text-primary">{{ $feedback->message }}</td>
+                        </tr>
+                        @empty
+                        <tr>
+                            <td colspan="4" class="text-center text-danger">No records found.</td>
+                        </tr>
+                        @endforelse
+                    </tbody>
+                </table>
+            </div>
         </div>
-
-        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
-    </form>
-</div>
+    </div>
+</section>
 @endsection

@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Contact extends Model
+
+class Feedback extends Model
 {
     use HasFactory;
 
-    // Specify which fields are mass assignable
-    protected $fillable = ['name', 'email', 'subject', 'message'];
+    protected $table = 'feedback'; // Specify the table name
+    protected $fillable = ['name', 'email', 'phoneNo', 'message']; // Fillable fields
 }
+
