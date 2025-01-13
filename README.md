@@ -78,13 +78,13 @@ The system came out with offering  helpful information about the destinations co
   - View campus events and activities
 
 ## ERD WITH RELATIONSHIP
-<img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/assets/WA%20ERD.drawio.jpg.jpg" alt="ER diagram" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/WA%20ERD.drawio.jpg" alt="ER diagram" width="500">
 
 ## SEQUENCE DIAGRAM
-<img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
 
-## MOCKUP (LINK)
-<img src="(https://github.com/bdytnnjh/WebApp-Project/tree/0575cc9e436ea66d67b225faadc9ab07707b1a6c/assets/webapp%20mockup)" alt="mockup" width="500">
+## MOCKUP
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp%20mockup" alt="mockup" width="500">
 
 ## REFERENCES
 1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
