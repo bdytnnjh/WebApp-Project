@@ -10,13 +10,13 @@
     <title>I-Walk</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{url('css/linearicons.css')}}">
+    <link rel="stylesheet" href="{{url('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{url('css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{url('css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{url('css/main.css')}}">
 </head>
 <body>
     <!-- Navbar Section -->
@@ -37,7 +37,7 @@
                         <li><a href="#service">Service</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#faq">Faq</a></li>
-                        <li><a href="#feedback">Feedback</a></li>
+                        <li><a href="{{route('feedbacks.index')}}">Feedback</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu">
@@ -66,12 +66,17 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{url('js/vendor/jquery-2.2.4.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="{{url('js/vendor/bootstrap.min.js')}}"></script>
+    <script src="{{url('js/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{url('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{url('js/owl.carousel.min.js')}}"></script>
+    <script src="{{url('js/jquery.sticky.js')}}"></script>
+    <script src="{{url('js/slick.js')}}"></script>
+    <script src="{{url('js/jquery.counterup.min.js')}}"></script>
+    <script src="{{url('js/waypoints.min.js')}}"></script>
+    <script src="{{url('js/main.js')}}"></script>
 
     <!-- Smooth Scrolling -->
     <script>

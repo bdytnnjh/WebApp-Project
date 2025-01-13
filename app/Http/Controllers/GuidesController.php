@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Feedback;
 use Illuminate\Support\Facades\DB;
-
+use Illuminate\Support\Facades\Storage;
+use App\Models\Guide;
 
 class GuidesController extends Controller
 {
@@ -16,26 +16,13 @@ class GuidesController extends Controller
     {
         $guides = Guide::all(); // Fetch all guides from the database
         return view('guides', compact('guides'));
-
-        $feedbacks = Feedback::all();
-        return view('admin.feedback.index', compact('feedbacks'));
     }
-
-    public function submitForm(Request $request)
+    /**
+     * * Show the form for creating a new guide.
+     */
+    public function create()
     {
-        // Validate the form input
-        $validatedData = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'phoneNo' => 'required|string|max:255',
-            'message' => 'required|string',
-        ]);
-
-        // Save the contact message to the database
-        Feedback::create($request->all());
-
-        // Redirect with a success message
-        return back()->with('success', 'Thank you for your feedback!');
+        return view('add-guides'); // Show form to create a new guide
     }
 
     /**
@@ -53,7 +40,7 @@ class GuidesController extends Controller
     public function edit(string $id)
     {
         $guide = Guide::findOrFail($id);
-        return view('guides.edit', compact('guide'));
+        return view('add-guides', compact('guide'));
     }
 
     /**
@@ -61,17 +48,7 @@ class GuidesController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
-            'description' => 'required|string',
-            'price' => 'required|numeric',
-            'image_url' => 'nullable|url',
-        ]);
 
-        $guide = Guide::findOrFail($id);
-        $guide->update($request->all());
-
-        return redirect()->route('guides.index')->with('success', 'Guide updated successfully.');
     }
 
     /**
@@ -103,3 +80,4 @@ class GuidesController extends Controller
         return redirect()->route('guides.index')->with('success', 'Guide created successfully.');
     }
 }
+

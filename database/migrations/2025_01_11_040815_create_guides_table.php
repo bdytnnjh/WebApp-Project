@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('guides', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->text('description');
-            $table->decimal('price', 8, 2);
-            $table->string('image_url')->nullable(); // Optional field for guide image
-            $table->timestamps();
+            $table->id(); // Auto-incrementing ID
+            $table->string('name'); // Guide's name
+            $table->string('email')->unique(); // Guide's email
+            $table->string('phone_number'); // Guide's phone number
+            $table->text('description'); // Guide's description
+            $table->timestamps(); // Created at and updated at timestamps
         });
     }
 
