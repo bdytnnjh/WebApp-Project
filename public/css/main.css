@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -47,6 +47,14 @@
   /* Microsoft Edge */
   color: #777777;
   font-weight: 300;
+}
+.logo {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    background-color: white; /* Set background color to white */
+    padding: 10px; /* Optional: Add padding around the logo */
+    display: inline-block; /* Make the image an inline-block element */
+    border-radius: 5px; /* Optional: Add rounded corners */
 }
 
 body {
