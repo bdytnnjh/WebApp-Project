@@ -84,13 +84,13 @@ The system came out with offering  helpful information about the destinations co
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
 
 ## MOCKUP
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/2.png" alt="homepage" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/3.png" alt="main page" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/4.png" alt="sign in" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/5.png" alt="register" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/6.png" alt="booking page" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/7.png" alt="interactive map" width="500">
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/8.png" alt="feedback page" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/2.png" alt="homepage" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/3.png" alt="main page" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/4.png" alt="sign in" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/5.png" alt="register" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/6.png" alt="booking page" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/7.png" alt="interactive map" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/assets/webapp mockup/8.png" alt="feedback page" width="500">
 
 ## REFERENCES
 1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
