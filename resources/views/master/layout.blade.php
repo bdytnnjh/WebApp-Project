@@ -48,6 +48,7 @@
                                 <li><a href="#about">Tours</a></li>
                                 <li><a href="#secvice">Booking</a></li>
                                 <li><a href="{{ route('guides.index') }}">Guides</a></li> <!-- Link to Guides Page -->
+                                <li><a href="{{route('feedbacks.index')}}">Feedback</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 <!-- Dropdown -->
                                 <li class="dropdown">

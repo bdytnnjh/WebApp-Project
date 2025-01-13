@@ -8,12 +8,9 @@ Route::get('/', function () {
     return view('mainpage');
 });
 
+Route::resource('guides',GuideController::class);
+Route::resource('feedbacks',FeedbackController::class);
+
 Route::get('/', function () {
     return view('feedback');
 });
-
-Route::resource('feedbacks',FeedbackController::class);
-
-Route::resource('guides', GuidesController::class);
-
-

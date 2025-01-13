@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 
-use App\Models\Guide;
+use App\Models\Guide; // Ensure the correct model is imported
 
 class GuidesController extends Controller
 {
