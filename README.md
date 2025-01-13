@@ -1,4 +1,5 @@
 # INFO 3305 WEB APPLICATION DEVELOPMENT - SECTION 3
+# I-WALK IIUM
 
 ## GROUP MEMBERS (GROUP E)
 1. BIDAYATUN NAJIHAH BINTI BUKHAARI (2216798)
@@ -82,9 +83,11 @@ The system came out with offering  helpful information about the destinations co
 ## SEQUENCE DIAGRAM
 <img src="https://github.com/bdytnnjh/WebApp-Project/blob/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
 
+## MOCKUP (LINK)
+<img src="(https://github.com/bdytnnjh/WebApp-Project/tree/0575cc9e436ea66d67b225faadc9ab07707b1a6c/assets/webapp%20mockup)" alt="mockup" width="500">
+
 ## REFERENCES
 1. Brown, F. (2024, June 28). Entity Relationship (ER) Diagram Model with DBMS Example. Guru99. https://www.guru99.com/er-diagram-tutorial-dbms.html
 
-## MOCKUP (LINK)
-https://www.canva.com/design/DAGZ-l-c2tk/0FQPdoXz1nbbZplvcz0z4w/edit?utm_content=DAGZ-l-c2tk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
