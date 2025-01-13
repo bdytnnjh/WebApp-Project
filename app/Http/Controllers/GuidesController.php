@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
-use App\Models\Guide;
+
+use App\Models\Guide; // Ensure the correct model is imported
 
 class GuidesController extends Controller
 {
@@ -17,12 +18,33 @@ class GuidesController extends Controller
         $guides = Guide::all(); // Fetch all guides from the database
         return view('guides', compact('guides'));
     }
+
     /**
      * * Show the form for creating a new guide.
      */
     public function create()
     {
         return view('add-guides'); // Show form to create a new guide
+    }
+
+    /**
+     * Store a newly created guide in storage.
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:guides,email',
+            'phone_number' => 'required|string|max:15', // Ensure this matches the input name
+            'description' => 'required|string',
+        ]);
+
+        // Create a new guide using the validated data
+        Guide::create($request->only('name', 'email', 'phone_number', 'description'));
+
+        // Redirect to the index page with a success message
+        return redirect()->route('guides.index')->with('success', 'Guide added successfully!');
+
     }
 
     /**
@@ -60,24 +82,6 @@ class GuidesController extends Controller
         $guide->delete();
 
         return redirect()->route('guides.index')->with('success', 'Guide deleted successfully.');
-    }
-
-    public function store(Request $request)
-    {
-        // Handle the logic to store data here
-        // Example: Validate and save the request data
-        $validatedData = $request->validate([
-            'title' => 'required|string|max:255',
-            'content' => 'required',
-        ]);
-
-        // Save the data to the database
-        $guide = new Guide(); // Assuming you have a Guide model
-        $guide->title = $validatedData['title'];
-        $guide->content = $validatedData['content'];
-        $guide->save();
-
-        return redirect()->route('guides.index')->with('success', 'Guide created successfully.');
     }
 }
 
