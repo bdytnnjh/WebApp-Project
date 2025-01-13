@@ -10,5 +10,5 @@ class Contact extends Model
     use HasFactory;
 
     // Specify which fields are mass assignable
-    protected $fillable = ['name', 'email', 'subject', 'message'];
+    protected $fillable = ['name', 'email', 'phoneNo', 'message'];
 }

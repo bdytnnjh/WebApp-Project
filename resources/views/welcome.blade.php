@@ -45,7 +45,6 @@
                                         Log in
                                     </a>
 
-<<<<<<< HEAD
                           <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li><a href="#home">Home</a></li>
@@ -124,7 +123,6 @@
                                         <div class="pt-3 sm:pt-5 lg:pt-0">
                                             <h2 class="text-xl font-semibold text-black dark:text-white">Documentation</h2>
 
-<<<<<<< HEAD
 
         <!-- Start project Area -->
         <section class="project-area section-gap" id="project">
@@ -391,7 +389,7 @@
                     <div class="menu-content pb-60 col-lg-8">
                         <div class="title text-center">
                             <h1 class="mb-10">If you need, Just drop us a line</h1>
-                            <p>Who are in extremely love with eco friendly system.</p>
+                            <p>Let us know your thoughts.</p>
                         </div>
                     </div>
                 </div>
@@ -452,12 +450,6 @@
                                         <!-- <div class="col-lg-4 col-md-4">
                                             <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
                                         </div>  -->
-=======
-                                            <p class="mt-4 text-sm/relaxed">
-                                                Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                            </p>
-                                        </div>
->>>>>>> 626012bfb0be9684b283fc264689dd9050f62eb5
                                     </div>
 
                                     <svg class="size-6 shrink-0 stroke-[#FF2D20]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/></svg>
