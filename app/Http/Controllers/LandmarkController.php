@@ -1,3 +1,7 @@
+<?php
+
+namespace App\Http\Controllers;
+
 use App\Models\Landmark;
 
 class LandmarkController extends Controller
