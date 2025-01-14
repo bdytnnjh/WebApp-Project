@@ -20,13 +20,13 @@
         <!--
         CSS
         ============================================= -->
-        <link rel="stylesheet" href="css/linearicons.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/linearicons.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link rel="stylesheet" href="/css/animate.min.css">
+        <link rel="stylesheet" href="/css/owl.carousel.css">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
         <!-- start banner Area -->
@@ -35,8 +35,8 @@
             <header class="default-header">
                 <nav class="navbar navbar-expand-lg  navbar-light">
                     <div class="container">
-                          <a class="navbar-brand" href="index.html">
-                            <img class="logo" src="img/iium_rce_greater_gombak_logo.png" alt="Logo">
+                          <a class="navbar-brand" href="/">
+                            <img class="logo" src="/img/iium_rce_greater_gombak_logo.png" alt="Logo">
                         </a>
                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="text-white lnr lnr-menu"></span>
@@ -45,7 +45,8 @@
                           <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">Tours</a></li>
+                                <li><a href="/users">Users</a></li>
+                                <li><a href="/tours">Tours</a></li>
                                 <li><a href="#secvice">Booking</a></li>
                                 <li><a href="{{ route('guides.index') }}">Guides</a></li> <!-- Link to Guides Page -->
                                 <li><a href="{{route('feedbacks.index')}}">Feedback</a></li>
