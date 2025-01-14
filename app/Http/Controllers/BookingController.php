@@ -3,15 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\TourGuide;
+use App\Models\Guide;
 use App\Models\Booking;
 
 class BookingController extends Controller
 {
-    public function create()
+    public function index()
     {
-        $tourGuides = TourGuide::all();
-        return view('booking', compact('tourGuides'));
+        $booking = Booking::all();
+        $guides = Guide::all();
+        return view('booking', compact('booking', 'guides'));
     }
 
     public function store(Request $request)
