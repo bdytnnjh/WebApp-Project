@@ -1,66 +1,81 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# INFO 3305 WEB APPLICATION DEVELOPMENT - SECTION 3
+# I-Walk IIUM
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## GROUP MEMBERS (GROUP E)
+1. BIDAYATUN NAJIHAH BINTI BUKHAARI (2216798)
+2. NUR WARDAH FATIMAH BINTI SAFUAN (2210902)
+3. MUHAMMAD AMMAR BIN MOHD ASRI (2114617)
+4. AHMAD SHAWQI BIN WAHID (2121347)
+5. HANIF UTHMAN BIN ZULKIPLI (2215001)
 
-## About Laravel
+## INTRODUCTION
+The "I-Walk IIUM" is a web-based application designed to enhance the campus touring experience for International Islamic University Malaysia (IIUM) students and visitors. The IIUM campus covers a wide area, comprising many landmarks and facilities, so it must be difficult and confusing for any newcomer or visitor to navigate around the campus. This system will help solve all the challenges by offering an inclusive and interactive method of guiding one through the campus.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The system is going to offer features such as self-guided virtual tours, detailed information about campus landmarks, and live tour booking options. Users can explore the campus at their own pace through virtual tours or might alternatively opt for live real-person guided tours for that enriched look and feel. The application includes detailed descriptions, multimedia content, and maps to ensure a rich and informative experience to users.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The "I-Walk IIUM" not only a navigation tool but also aims to foster a deeper understanding and appreciation of the university’s facilities, culture, and history. In integrating modern technology with campus exploration, the system seeks to enhance the overall experience for students, faculty, and visitors alike.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## OBJECTIVE
+The primary objective of I-Walk IIUM is to attract potential clientts and IIUM community and also facilitate bookings for tours and travel experiences. It serves as a digital platform to showcase the tour guide's expertise, highlight their unique offerings, and provide a convenient way for interested individuals to inquire about and reserve tours.
 
-## Learning Laravel
+The system came out with offering  helpful information about the destinations covered in the tours also share travel stories, insider tips, and other relevant content to engage visitors and establish the tour guide as an authority. I-Walk IIUM System address feedback form for oncerns and to provide clarity or trust to the system.The system not only just ease the outer visitors in IIUM campus,  but also  will help people with disabilities and discapabilitie in their university daily live.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## FEATURES & FUNCTIONALITIES
+<ins>**USER**</ins>
+1.	**User Authentication** (including students, staffs, and visitors to log in)
+2.	**Role Management** (including admin, tour guide and general user)
+3.	**Interactive Campus Map** 
+  -	Locate landmarks, tour routes, availability, and facilities in real time
+  -	Directions between locations for physical tours
+4.	**Tour Booking and Management**
+  -	Users can browse, select, and book tours as prefer (self-tour or with tour guide)
+  -	Users can view and manage the booking history
+5.	**Campus Landmark Information**
+  -	Detailed descriptions, historical facts, and media such as photos and videos about the landmarks 
+6.	**Feedback and Review System**
+  -	Users can rate and review tours and provide comments to improve future tours
+7.	**Notifications and Alerts**
+  -	Real-time updates on bookings, tour changes and upcoming events
+8.	**Event and Activity Listings**
+  -	Calendar of campus events, exhibitions, or cultural festivals
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<ins>**ADMIN**</ins>
+1. **User Management**
+  - Manage user's role and give permissions
+2. **Tour and Landmark Management**
+  - Create and update tours with details such as schedules, tour guide and descriptions for each tour
+  - Add and modify campus landmarks with interesting content
+3. **Booking System Oversight**
+  - Monitor all bookings and manage tour capacities
+  - Generate booking 
+4. **Feedback Analysis**
+  - Access user's reviews and ratings to identify which areas need to be improved
+5. **Event Management**
+  - Update campus events
+6. **Analytics and Reporting**
+  - View usage statistics, popula landmarks and peak tour times
+  - Generate reports for decision-making and system improvement
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<ins>**GUIDE**</ins>
+1. **Assigned Tour Management**
+  - View scheduled tours, visitors list and route details
+2. **Tour Assistance Tools**
+  - FAQs for seemless guidance
+3. **User Interaction**
+  - Communicate with visitors through the system for updates
 
-## Laravel Sponsors
+<ins>**VISITOR**</ins>
+1. **Guest Access**
+  - Explore the system without login, featuring general landmark details
+2. **Event Browsing**
+  - View campus events and activities
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## SEQUENCE DIAGRAM
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/image_2024-12-24_184102268.png" alt="Sequence diagram" width="500">
 
-### Premium Partners
+## PROJECT SYSTEM
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+## CHALLENGES & DIFFICULTIES
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
