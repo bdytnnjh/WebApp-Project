@@ -45,7 +45,7 @@
                                 <h5 class="card-title">{{ $guide->name }}</h5>
                                 <p class="card-text">{{ $guide->description }}</p>
                                 <p class="card-text"><strong>Price:</strong> Free</p> <!-- Assuming all guides are free -->
-                                <a class="btn btn-success" style="color: black;">Book Now</a>
+                                <a class="btn btn-success" style="color: black;" href='https://wa.me/{{ $guide->phone_number }}'>Book Now</a>
                             </div>
                         </div>
                     </div>

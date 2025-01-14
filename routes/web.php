@@ -14,5 +14,5 @@ Route::get('/', function () {
 Route::resource('guides',GuidesController::class);
 Route::resource('feedbacks',FeedbackController::class);
 Route::resource('map',LandmarkController::class);
-Route::resource('booking', BookingController::class);
+Route::resource('bookings', BookingController::class);
 Route::resource('users', UsersController::class);

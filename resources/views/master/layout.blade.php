@@ -42,12 +42,12 @@
                             <span class="text-white lnr lnr-menu"></span>
                           </button>
 
-                          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                          <div class="navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="/users">Users</a></li>
-                                <li><a href="/tours">Tours</a></li>
-                                <li><a href="#secvice">Booking</a></li>
+                                <li><a href="{{ route('users.index') }}">Users</a></li>
+                                <li><a href="{{ route('guides.index') }}">Tours</a></li>
+                                <li><a href="{{ route('bookings.index') }}">Booking</a></li>
                                 <li><a href="{{ route('guides.index') }}">Guides</a></li> <!-- Link to Guides Page -->
                                 <li><a href="{{route('feedbacks.index')}}">Feedback</a></li>
                                 <li><a href="#contact">Contact</a></li>

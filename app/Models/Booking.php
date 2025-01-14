@@ -10,11 +10,10 @@ class Booking extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_name',
-        'user_email',
-        'tour_guide',
-        'tour_date',
-        'tour_location',
-        'additional_requests',
+        'tour_guide_id',
+        'date',
+        'time',
+        'location',
+        'special_requests'
     ];
 }
