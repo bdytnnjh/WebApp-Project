@@ -109,5 +109,5 @@ This is the feedback page. Users can add feeback on this page.
 
 
 ## CHALLENGES & DIFFICULTIES
-
+Working on a web app remotely as a team can be tough due to communication gaps, work management issues, and technical issues. Without face-to-face interaction, misunderstandings and feedback delays are possible. Managing tasks can be hard since team members may struggle to track progress or avoid overlapping work. Using tools like Git to integrate code from several developers might also result in bugs if the right procedures are not followed. Remote work can also have an impact on team morale and motivation because it is more difficult to establish rapport and hold people accountable without physical interaction. Overcoming these issues requires good use of technologies such as VS Code and Git, as well as clear communication.
 
