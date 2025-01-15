@@ -45,7 +45,7 @@
                           <div class="navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="{{ route('users.index') }}">Users</a></li>
+                                <li><a href="{{ route('users.index') }} ">Users</a></li>
                                 <li><a href="{{ route('guides.index') }}">Tours</a></li>
                                 <li><a href="{{ route('bookings.index') }}">Booking</a></li>
                                 <li><a href="{{ route('guides.index') }}">Guides</a></li> <!-- Link to Guides Page -->
