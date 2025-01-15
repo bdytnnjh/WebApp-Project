@@ -1,60 +1,22 @@
-namespace Database\Seeders;
-
-use Illuminate\Database\Seeder;
-use App\Models\Landmark;
+use Illuminate\Support\Facades\DB;
+use Faker\Factory as Faker;
 
 class LandmarkSeeder extends Seeder
 {
     public function run()
     {
-        Landmark::create([
-            'name' => 'IIUM Dar al-Hikmah Library',
-            'description' => 'The main library of UIAM.',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
+        $faker = Faker::create();
 
-        Landmark::create([
-            'name' => 'Admin Building',
-            'description' => 'The administrative building of UIAM.',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
-
-        Landmark::create([
-            'name' => 'Sultan Haji Ahamad Shah Mosque',
-            'description' => 'Center for Islamization of UIAM.',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
-
-        Landmark::create([
-            'name' => 'IIUM Cultural Center',
-            'description' => 'Citra and other Cultural society based building',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
-
-        Landmark::create([
-            'name' => 'IIUM Sejahtera Clinic',
-            'description' => 'Clinic for IIUM Community',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
-
-        Landmark::create([
-            'name' => 'Main Auditorium IIUM',
-            'description' => 'just an Auditorium',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
-
-
-        Landmark::create([
-            'name' => 'Saidina Hamzah Stadium',
-            'description' => 'Main building of sport and recreational office',
-            'x_coordinate' => 100,
-            'y_coordinate' => 200,
-        ]);
+        foreach (range(1, 10) as $index) {
+            DB::table('landmarks')->insert([
+                'landmark_name' => $faker->word,
+                'short_term_name' => strtoupper($faker->lexify('??')),
+                'name' => $faker->sentence(3),
+                'latitude' => $faker->latitude,
+                'longitude' => $faker->longitude,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+        }
     }
 }
