@@ -94,6 +94,10 @@ This is the guides page. On top of it there is 'add guide' button where guides c
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot (227).png" alt="guides2" width="500">
 After the guides has registered, their profile will show with the default profile picture.
 
+--Feedback page - wardah-
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/feedback.png" alt="guides1" width="500">
+This is the feedback page. Users can add feeback on this page. 
+
 
 ## CHALLENGES & DIFFICULTIES
 
