@@ -13,6 +13,7 @@ Route::get('/', function () {
 
 Route::resource('guides',GuidesController::class);
 Route::resource('feedbacks',FeedbackController::class);
-Route::resource('map',LandmarkController::class);
+Route::get('/landmarks/create', [LandmarkController::class, 'create'])->name('landmarks.create');
+Route::post('/landmarks', [LandmarkController::class, 'store'])->name('landmarks.store');
 Route::resource('bookings', BookingController::class);
 Route::resource('users', UsersController::class);
