@@ -76,13 +76,17 @@ The system came out with offering  helpful information about the destinations co
 ## PROJECT SYSTEM
 
 
-Users page - ammar asri
+-- Users page - ammar asri --
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/user1.png" width="500">
 
+-- Booking page - ahmad syawqi --
 
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/bookingpage_2121347.png" alt="guides1" width="500">
 
-Guides page - najihah
+This page shows where users can book their slot and choose all the available tour guides, dates, time, and location. Users also can add any additional request from the tour guide.
+
+-- Guides page - najihah --
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot 2025-01-13 211107.png" alt="guides1" width="500">
 This is the guides page. On top of it there is 'add guide' button where guides can register themselves. 
