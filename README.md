@@ -76,10 +76,10 @@ The system came out with offering  helpful information about the destinations co
 ## PROJECT SYSTEM
 
 Guides page - najihah
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/public/img/Screenshot 2025-01-13 211107.png" alt="guides1" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot 2025-01-13 211107.png" alt="guides1" width="500">
 This is the guides page. On top of it there is 'add guide' button where guides can register themselves. 
 
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/main/public/img/Screenshot (227).png" alt="guides2" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot (227).png" alt="guides2" width="500">
 After the guides has registered, their profile will show with the default profile picture.
 
 
