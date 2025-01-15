@@ -1,4 +1,4 @@
-# INFO 3305 WEB APPLICATION DEVELOPMENT - SECTION 3
+    # INFO 3305 WEB APPLICATION DEVELOPMENT - SECTION 3
 # I-Walk IIUM
 
 ## GROUP MEMBERS (GROUP E)
@@ -78,7 +78,7 @@ The system came out with offering  helpful information about the destinations co
 
 Users page - ammar asri
 
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot 2025-01-15 1922337.png" alt="user1" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/user1.png" width="500">
 
 
 
