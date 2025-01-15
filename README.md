@@ -80,7 +80,7 @@ The system came out with offering  helpful information about the destinations co
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/ammar1.png" width="500">
 
-Ths page show how user can provide their detail and in the data before proceed to "add new user" button.
+Ths page show how user can provide their detail and key in the data before proceed to "add new user" button.
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/ammar2.png" width="500">
 
