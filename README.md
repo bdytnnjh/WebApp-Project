@@ -78,7 +78,7 @@ The system came out with offering  helpful information about the destinations co
 
 -- Users page - ammar asri --
 
-<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/user1.png" width="500">
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/ammar1.png" width="500">
 
 -- Booking page - ahmad syawqi --
 
