@@ -87,24 +87,35 @@ Ths page show how user can provide their detail and key in the data before proce
 After user successfully key in their detail, it will appear on the user list as the stored data
 
 
-
 -- Booking page - ahmad syawqi --
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/bookingpage_2121347.png" alt="guides1" width="500">
 
 This page shows where users can book their slot and choose all the available tour guides, dates, time, and location. Users also can add any additional request from the tour guide.
 
+
+--Add Landmark - hanif --
+
+<img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/landmark.png" alt="landmark" width="500">
+
+This page shows where users can add landmark details to database such as landmark name, short term, latitude,longitude and link on google maps.
+
+
 -- Guides page - najihah --
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot 2025-01-13 211107.png" alt="guides1" width="500">
+
 This is the guides page. On top of it there is 'add guide' button where guides can register themselves. 
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/Screenshot (227).png" alt="guides2" width="500">
+
 After the guides has registered, their profile will show with the default profile picture.
+
 
 -- Feedback page - wardah --
 
 <img src="https://raw.githubusercontent.com/bdytnnjh/WebApp-Project/master/public/img/feedback.jpg" alt="feedback" width="500">
+
 This is the feedback page. Users can add feeback on this page. 
 
 
